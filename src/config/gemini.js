@@ -11,7 +11,7 @@ import {
   } from "@google/generative-ai";
   
   const MODEL_NAME = "gemini-1.0-pro";
-  const API_KEY = "AIzaSyBWLcHGoPgtptNnHmTmM2of9lJW4yokOtw";
+  const API_KEY = "Your API_KEY Should be pasted here "; // here is the youtube link how to get gemini api key link  "https://www.youtube.com/watch?v=OVnnVnLZPEo"
   
   async function runChat(prompt) {
     const genAI = new GoogleGenerativeAI(API_KEY);
